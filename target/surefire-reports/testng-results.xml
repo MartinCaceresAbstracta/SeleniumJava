@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-18T14:24:50 UYT" name="Parametrized test Suite" finished-at="2022-01-18T14:25:48 UYT" duration-ms="58317">
+    <groups>
+    </groups>
+    <test started-at="2022-01-18T14:24:50 UYT" name="Test 1 - French" finished-at="2022-01-18T14:24:59 UYT" duration-ms="9209">
+      <class name="scripts.Test1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.Test1@14e2e1c3]" started-at="2022-01-18T14:24:50 UYT" name="setUp" finished-at="2022-01-18T14:24:55 UYT" duration-ms="5162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLanguage(java.lang.String, java.lang.String)[pri:0, instance:scripts.Test1@14e2e1c3]" started-at="2022-01-18T14:24:55 UYT" name="testLanguage" finished-at="2022-01-18T14:24:58 UYT" duration-ms="3128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[French]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Panier]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLanguage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:scripts.Test1@14e2e1c3]" started-at="2022-01-18T14:24:58 UYT" name="close" finished-at="2022-01-18T14:24:59 UYT" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- scripts.Test1 -->
+    </test> <!-- Test 1 - French -->
+    <test started-at="2022-01-18T14:24:59 UYT" name="Test 1 - German" finished-at="2022-01-18T14:25:05 UYT" duration-ms="5702">
+      <class name="scripts.Test1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.Test1@2301b75]" started-at="2022-01-18T14:24:59 UYT" name="setUp" finished-at="2022-01-18T14:25:02 UYT" duration-ms="3236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLanguage(java.lang.String, java.lang.String)[pri:0, instance:scripts.Test1@2301b75]" started-at="2022-01-18T14:25:02 UYT" name="testLanguage" finished-at="2022-01-18T14:25:04 UYT" duration-ms="1678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[German]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Warenkorb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLanguage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:scripts.Test1@2301b75]" started-at="2022-01-18T14:25:04 UYT" name="close" finished-at="2022-01-18T14:25:05 UYT" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- scripts.Test1 -->
+    </test> <!-- Test 1 - German -->
+    <test started-at="2022-01-18T14:25:05 UYT" name="Test 2 - WomenArticle" finished-at="2022-01-18T14:25:12 UYT" duration-ms="6952">
+      <class name="scripts.Test2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.Test2@6d171ce0]" started-at="2022-01-18T14:25:05 UYT" name="setUp" finished-at="2022-01-18T14:25:09 UYT" duration-ms="3776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearch(java.lang.String, java.lang.String)[pri:0, instance:scripts.Test2@6d171ce0]" started-at="2022-01-18T14:25:09 UYT" name="testSearch" finished-at="2022-01-18T14:25:11 UYT" duration-ms="2436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TRIBECA SKINNY JEAN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$185.00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="close()[pri:0, instance:scripts.Test2@6d171ce0]" started-at="2022-01-18T14:25:11 UYT" name="close" finished-at="2022-01-18T14:25:12 UYT" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- scripts.Test2 -->
+    </test> <!-- Test 2 - WomenArticle -->
+    <test started-at="2022-01-18T14:25:12 UYT" name="Test 2 - MenArticle" finished-at="2022-01-18T14:25:19 UYT" duration-ms="6655">
+      <class name="scripts.Test2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.Test2@29a4f594]" started-at="2022-01-18T14:25:12 UYT" name="setUp" finished-at="2022-01-18T14:25:15 UYT" duration-ms="3290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearch(java.lang.String, java.lang.String)[pri:0, instance:scripts.Test2@29a4f594]" started-at="2022-01-18T14:25:15 UYT" name="testSearch" finished-at="2022-01-18T14:25:18 UYT" duration-ms="2611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHELSEA TEE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$75.00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="close()[pri:0, instance:scripts.Test2@29a4f594]" started-at="2022-01-18T14:25:18 UYT" name="close" finished-at="2022-01-18T14:25:19 UYT" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- scripts.Test2 -->
+    </test> <!-- Test 2 - MenArticle -->
+    <test started-at="2022-01-18T14:25:19 UYT" name="Test 3 - Promo HomeDecor" finished-at="2022-01-18T14:25:24 UYT" duration-ms="5397">
+      <class name="scripts.Test3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.Test3@17271176]" started-at="2022-01-18T14:25:19 UYT" name="setUp" finished-at="2022-01-18T14:25:22 UYT" duration-ms="3266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPromo(java.lang.String, java.lang.String)[pri:0, instance:scripts.Test3@17271176]" started-at="2022-01-18T14:25:22 UYT" name="testPromo" finished-at="2022-01-18T14:25:23 UYT" duration-ms="1369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Physical & Virtual Gift Cards]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://magento-demo.lexiconn.com/home-decor.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPromo -->
+        <test-method is-config="true" signature="close()[pri:0, instance:scripts.Test3@17271176]" started-at="2022-01-18T14:25:23 UYT" name="close" finished-at="2022-01-18T14:25:24 UYT" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- scripts.Test3 -->
+    </test> <!-- Test 3 - Promo HomeDecor -->
+    <test started-at="2022-01-18T14:25:24 UYT" name="Test 3 - Promo ShopPrivateSales" finished-at="2022-01-18T14:25:31 UYT" duration-ms="6553">
+      <class name="scripts.Test3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.Test3@58294867]" started-at="2022-01-18T14:25:24 UYT" name="setUp" finished-at="2022-01-18T14:25:28 UYT" duration-ms="3712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPromo(java.lang.String, java.lang.String)[pri:0, instance:scripts.Test3@58294867]" started-at="2022-01-18T14:25:28 UYT" name="testPromo" finished-at="2022-01-18T14:25:30 UYT" duration-ms="2070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shop Private Sales - Members Only]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://magento-demo.lexiconn.com/vip.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPromo -->
+        <test-method is-config="true" signature="close()[pri:0, instance:scripts.Test3@58294867]" started-at="2022-01-18T14:25:30 UYT" name="close" finished-at="2022-01-18T14:25:31 UYT" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- scripts.Test3 -->
+    </test> <!-- Test 3 - Promo ShopPrivateSales -->
+    <test started-at="2022-01-18T14:25:31 UYT" name="Test 4 - Add to Cart" finished-at="2022-01-18T14:25:40 UYT" duration-ms="9404">
+      <class name="scripts.Test4">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.Test4@7baf6acf]" started-at="2022-01-18T14:25:31 UYT" name="setUp" finished-at="2022-01-18T14:25:34 UYT" duration-ms="3734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddToCart(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.Test4@7baf6acf]" started-at="2022-01-18T14:25:34 UYT" name="testAddToCart" finished-at="2022-01-18T14:25:39 UYT" duration-ms="4752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TRIBECA SKINNY JEAN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$185.00]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Black]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:scripts.Test4@7baf6acf]" started-at="2022-01-18T14:25:39 UYT" name="close" finished-at="2022-01-18T14:25:40 UYT" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- scripts.Test4 -->
+    </test> <!-- Test 4 - Add to Cart -->
+    <test started-at="2022-01-18T14:25:40 UYT" name="Test 5 - Validate Urls" finished-at="2022-01-18T14:25:48 UYT" duration-ms="8247">
+      <class name="scripts.Test5">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.Test5@6dcd5639]" started-at="2022-01-18T14:25:40 UYT" name="setUp" finished-at="2022-01-18T14:25:44 UYT" duration-ms="3745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidateUrls(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.Test5@6dcd5639]" started-at="2022-01-18T14:25:44 UYT" name="testValidateUrls" finished-at="2022-01-18T14:25:47 UYT" duration-ms="3754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Women]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Men]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Accessories]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Home & Decor]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sale]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[VIP]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://magento-demo.lexiconn.com/women.html]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://magento-demo.lexiconn.com/men.html]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://magento-demo.lexiconn.com/accessories.html]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://magento-demo.lexiconn.com/home-decor.html]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[http://magento-demo.lexiconn.com/sale.html]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[http://magento-demo.lexiconn.com/vip.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUrls -->
+        <test-method is-config="true" signature="close()[pri:0, instance:scripts.Test5@6dcd5639]" started-at="2022-01-18T14:25:47 UYT" name="close" finished-at="2022-01-18T14:25:48 UYT" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- scripts.Test5 -->
+    </test> <!-- Test 5 - Validate Urls -->
+  </suite> <!-- Parametrized test Suite -->
+</testng-results>

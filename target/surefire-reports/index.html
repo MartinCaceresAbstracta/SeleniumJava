@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Parametrized_test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Parametrized test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Parametrized_test_Suite" class="navigator-link ">
+                    <span>C:\Users\Usuario\Desktop\CursoSeleniumParametrizar\CursoSelenium\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Parametrized_test_Suite" class="navigator-link ">
+                    <span class="test-stats">8 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Parametrized_test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Parametrized_test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Parametrized_test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Parametrized_test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Parametrized_test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Parametrized_test_Suite" class="hide-methods passed suite-Parametrized_test_Suite"> (hide)</a> <!-- hide-methods passed suite-Parametrized_test_Suite -->
+                      <a href="#" panel-name="suite-Parametrized_test_Suite" class="show-methods passed suite-Parametrized_test_Suite"> (show)</a> <!-- show-methods passed suite-Parametrized_test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Parametrized_test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parametrized_test_Suite" title="scripts.Test4" class="method navigator-link" hash-for-method="testAddToCart(TRIBECA SKINNY JEAN, $185.00, Black, 31)">testAddToCart(TRIBECA SKINNY JEAN, $185.00, Black, 31)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parametrized_test_Suite" title="scripts.Test1" class="method navigator-link" hash-for-method="testLanguage(French, Panier)">testLanguage(French, Panier)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parametrized_test_Suite" title="scripts.Test1" class="method navigator-link" hash-for-method="testLanguage(German, Warenkorb)">testLanguage(German, Warenkorb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parametrized_test_Suite" title="scripts.Test3" class="method navigator-link" hash-for-method="testPromo(Physical &amp; Virtual Gift Cards, http://magento-demo.lexiconn.com/home-decor.html)">testPromo(Physical & Virtual Gift Cards, http://magento-demo.lexiconn.com/home-decor.html)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parametrized_test_Suite" title="scripts.Test3" class="method navigator-link" hash-for-method="testPromo(Shop Private Sales - Members Only, http://magento-demo.lexiconn.com/vip.html)">testPromo(Shop Private Sales - Members Only, http://magento-demo.lexiconn.com/vip.html)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parametrized_test_Suite" title="scripts.Test2" class="method navigator-link" hash-for-method="testSearch(TRIBECA SKINNY JEAN, $185.00)">testSearch(TRIBECA SKINNY JEAN, $185.00)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parametrized_test_Suite" title="scripts.Test2" class="method navigator-link" hash-for-method="testSearch(CHELSEA TEE, $75.00)">testSearch(CHELSEA TEE, $75.00)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parametrized_test_Suite" title="scripts.Test5" class="method navigator-link" hash-for-method="testValidateUrls(Women, Men, Accessories, Home &amp; Decor, Sale, VIP, http://magento-demo.lexiconn.com/women.html, http:...)">testValidateUrls(Women, Men, Accessories, Home & Decor, Sale, VIP, http://magento-demo.lexiconn.com/women.html, http:...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Parametrized_test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Parametrized_test_Suite" class="panel Parametrized_test_Suite">
+          <div class="suite-Parametrized_test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Test2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch(TRIBECA SKINNY JEAN, $185.00)">
+                  </a> <!-- testSearch(TRIBECA SKINNY JEAN, $185.00) -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">(TRIBECA SKINNY JEAN, $185.00)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch(CHELSEA TEE, $75.00)">
+                  </a> <!-- testSearch(CHELSEA TEE, $75.00) -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">(CHELSEA TEE, $75.00)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parametrized_test_Suite-class-passed -->
+          <div class="suite-Parametrized_test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Test5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateUrls(Women, Men, Accessories, Home &amp; Decor, Sale, VIP, http://magento-demo.lexiconn.com/women.html, http:...)">
+                  </a> <!-- testValidateUrls(Women, Men, Accessories, Home & Decor, Sale, VIP, http://magento-demo.lexiconn.com/women.html, http:...) -->
+                  <span class="method-name">testValidateUrls</span>
+                  <span class="parameters">(Women, Men, Accessories, Home & Decor, Sale, VIP, http://magento-demo.lexiconn.com/women.html, http://magento-demo.lexiconn.com/men.html, http://magento-demo.lexiconn.com/accessories.html, http://magento-demo.lexiconn.com/home-decor.html, http://magento-demo.lexiconn.com/sale.html, http://magento-demo.lexiconn.com/vip.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parametrized_test_Suite-class-passed -->
+          <div class="suite-Parametrized_test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Test3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPromo(Physical &amp; Virtual Gift Cards, http://magento-demo.lexiconn.com/home-decor.html)">
+                  </a> <!-- testPromo(Physical & Virtual Gift Cards, http://magento-demo.lexiconn.com/home-decor.html) -->
+                  <span class="method-name">testPromo</span>
+                  <span class="parameters">(Physical & Virtual Gift Cards, http://magento-demo.lexiconn.com/home-decor.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPromo(Shop Private Sales - Members Only, http://magento-demo.lexiconn.com/vip.html)">
+                  </a> <!-- testPromo(Shop Private Sales - Members Only, http://magento-demo.lexiconn.com/vip.html) -->
+                  <span class="method-name">testPromo</span>
+                  <span class="parameters">(Shop Private Sales - Members Only, http://magento-demo.lexiconn.com/vip.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parametrized_test_Suite-class-passed -->
+          <div class="suite-Parametrized_test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Test4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToCart(TRIBECA SKINNY JEAN, $185.00, Black, 31)">
+                  </a> <!-- testAddToCart(TRIBECA SKINNY JEAN, $185.00, Black, 31) -->
+                  <span class="method-name">testAddToCart</span>
+                  <span class="parameters">(TRIBECA SKINNY JEAN, $185.00, Black, 31)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parametrized_test_Suite-class-passed -->
+          <div class="suite-Parametrized_test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Test1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLanguage(French, Panier)">
+                  </a> <!-- testLanguage(French, Panier) -->
+                  <span class="method-name">testLanguage</span>
+                  <span class="parameters">(French, Panier)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLanguage(German, Warenkorb)">
+                  </a> <!-- testLanguage(German, Warenkorb) -->
+                  <span class="method-name">testLanguage</span>
+                  <span class="parameters">(German, Warenkorb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parametrized_test_Suite-class-passed -->
+        </div> <!-- panel Parametrized_test_Suite -->
+        <div panel-name="test-xml-Parametrized_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Usuario\Desktop\CursoSeleniumParametrizar\CursoSelenium\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Parametrized test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test 1 - French&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;langParam&quot; value=&quot;French&quot;/&gt;
+    &lt;parameter name=&quot;cartNameParam&quot; value=&quot;Panier&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scripts.Test1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 1 - French --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test 1 - German&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;langParam&quot; value=&quot;German&quot;/&gt;
+    &lt;parameter name=&quot;cartNameParam&quot; value=&quot;Warenkorb&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scripts.Test1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 1 - German --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test 2 - WomenArticle&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;productParam&quot; value=&quot;TRIBECA SKINNY JEAN&quot;/&gt;
+    &lt;parameter name=&quot;priceParam&quot; value=&quot;$185.00&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scripts.Test2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 2 - WomenArticle --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test 2 - MenArticle&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;productParam&quot; value=&quot;CHELSEA TEE&quot;/&gt;
+    &lt;parameter name=&quot;priceParam&quot; value=&quot;$75.00&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scripts.Test2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 2 - MenArticle --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test 3 - Promo HomeDecor&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;promoParam&quot; value=&quot;Physical &amp;amp; Virtual Gift Cards&quot;/&gt;
+    &lt;parameter name=&quot;urlParam&quot; value=&quot;http://magento-demo.lexiconn.com/home-decor.html&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scripts.Test3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 3 - Promo HomeDecor --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test 3 - Promo ShopPrivateSales&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;promoParam&quot; value=&quot;Shop Private Sales - Members Only&quot;/&gt;
+    &lt;parameter name=&quot;urlParam&quot; value=&quot;http://magento-demo.lexiconn.com/vip.html&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scripts.Test3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 3 - Promo ShopPrivateSales --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test 4 - Add to Cart&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;priceParam&quot; value=&quot;$185.00&quot;/&gt;
+    &lt;parameter name=&quot;colorParam&quot; value=&quot;Black&quot;/&gt;
+    &lt;parameter name=&quot;sizeParam&quot; value=&quot;31&quot;/&gt;
+    &lt;parameter name=&quot;itemParam&quot; value=&quot;TRIBECA SKINNY JEAN&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scripts.Test4&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 4 - Add to Cart --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test 5 - Validate Urls&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;womenParam&quot; value=&quot;Women&quot;/&gt;
+    &lt;parameter name=&quot;womenUrlParam&quot; value=&quot;http://magento-demo.lexiconn.com/women.html&quot;/&gt;
+    &lt;parameter name=&quot;menParam&quot; value=&quot;Men&quot;/&gt;
+    &lt;parameter name=&quot;homeDecorParam&quot; value=&quot;Home &amp;amp; Decor&quot;/&gt;
+    &lt;parameter name=&quot;menUrlParam&quot; value=&quot;http://magento-demo.lexiconn.com/men.html&quot;/&gt;
+    &lt;parameter name=&quot;accessoriesParam&quot; value=&quot;Accessories&quot;/&gt;
+    &lt;parameter name=&quot;saleParam&quot; value=&quot;Sale&quot;/&gt;
+    &lt;parameter name=&quot;accessoriesUrlParam&quot; value=&quot;http://magento-demo.lexiconn.com/accessories.html&quot;/&gt;
+    &lt;parameter name=&quot;homeDecorUrlParam&quot; value=&quot;http://magento-demo.lexiconn.com/home-decor.html&quot;/&gt;
+    &lt;parameter name=&quot;vipParam&quot; value=&quot;VIP&quot;/&gt;
+    &lt;parameter name=&quot;saleUrlParam&quot; value=&quot;http://magento-demo.lexiconn.com/sale.html&quot;/&gt;
+    &lt;parameter name=&quot;vipUrlParam&quot; value=&quot;http://magento-demo.lexiconn.com/vip.html&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scripts.Test5&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 5 - Validate Urls --&gt;
+&lt;/suite&gt; &lt;!-- Parametrized test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Parametrized_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Parametrized test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test 1 - French (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test 1 - German (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test 2 - WomenArticle (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test 2 - MenArticle (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test 3 - Promo HomeDecor (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test 3 - Promo ShopPrivateSales (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test 4 - Add to Cart (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test 5 - Validate Urls (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Parametrized_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Parametrized test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Parametrized_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Parametrized test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Parametrized_test_Suite');
+function tableData_Parametrized_test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAddToCart')
+data.setCell(0, 2, 'scripts.Test4')
+data.setCell(0, 3, 4752);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testValidateUrls')
+data.setCell(1, 2, 'scripts.Test5')
+data.setCell(1, 3, 3754);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLanguage')
+data.setCell(2, 2, 'scripts.Test1')
+data.setCell(2, 3, 3128);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSearch')
+data.setCell(3, 2, 'scripts.Test2')
+data.setCell(3, 3, 2611);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSearch')
+data.setCell(4, 2, 'scripts.Test2')
+data.setCell(4, 3, 2436);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testPromo')
+data.setCell(5, 2, 'scripts.Test3')
+data.setCell(5, 3, 2070);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLanguage')
+data.setCell(6, 2, 'scripts.Test1')
+data.setCell(6, 3, 1678);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testPromo')
+data.setCell(7, 2, 'scripts.Test3')
+data.setCell(7, 3, 1369);
+window.suiteTableData['Parametrized_test_Suite']= { tableData: data, tableDiv: 'times-div-Parametrized_test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-Parametrized_test_Suite">
+              </div> <!-- times-div-Parametrized_test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Parametrized_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Parametrized test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Parametrized_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Parametrized_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Test1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLanguage(French, Panier)</span>
+                <span class="method-start">5178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">8409 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9246 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLanguage(German, Warenkorb)</span>
+                <span class="method-start">12482 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">14164 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Test2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14987 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSearch(TRIBECA SKINNY JEAN, $185.00)</span>
+                <span class="method-start">18763 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">21203 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21969 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSearch(CHELSEA TEE, $75.00)</span>
+                <span class="method-start">25259 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">27872 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Test3</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28644 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testPromo(Physical & Virtual Gift Cards, http://magento-demo.lexiconn.com/home-decor.html)</span>
+                <span class="method-start">31911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">33282 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34061 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testPromo(Shop Private Sales - Members Only, http://magento-demo.lexiconn.com/vip.html)</span>
+                <span class="method-start">37774 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">39845 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Test4</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40632 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAddToCart(TRIBECA SKINNY JEAN, $185.00, Black, 31)</span>
+                <span class="method-start">44367 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">49121 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Test5</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50044 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testValidateUrls(Women, Men, Accessories, Home & Decor, Sale, VIP, http://magento-demo.lexiconn.com/women.html, http:...)</span>
+                <span class="method-start">53789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">57546 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

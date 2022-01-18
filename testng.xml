@@ -1,0 +1,75 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Parametrized test Suite" verbose="1">
+    <test name="Test 1 - French">
+        <parameter name="langParam" value="French"></parameter>
+        <parameter name="cartNameParam" value="Panier"></parameter>
+        <classes>
+            <class name="scripts.Test1"/>
+        </classes>
+    </test>
+    <test name="Test 1 - German">
+        <parameter name="langParam" value="German"></parameter>
+        <parameter name="cartNameParam" value="Warenkorb"></parameter>
+        <classes>
+            <class name="scripts.Test1"/>
+        </classes>
+    </test>
+    <test name="Test 2 - WomenArticle">
+        <parameter name="productParam" value="TRIBECA SKINNY JEAN"></parameter>
+        <parameter name="priceParam" value="$185.00"></parameter>
+
+        <classes>
+            <class name="scripts.Test2"/>
+        </classes>
+    </test>
+    <test name="Test 2 - MenArticle">
+        <parameter name="productParam" value="CHELSEA TEE"></parameter>
+        <parameter name="priceParam" value="$75.00"></parameter>
+        <classes>
+            <class name="scripts.Test2"/>
+        </classes>
+    </test>
+    <test name="Test 3 - Promo HomeDecor">
+        <parameter name="promoParam" value="Physical &#38; Virtual Gift Cards"></parameter>
+        <parameter name="urlParam" value="http://magento-demo.lexiconn.com/home-decor.html"></parameter>
+        <classes>
+            <class name="scripts.Test3"/>
+        </classes>
+    </test>
+    <test name="Test 3 - Promo ShopPrivateSales">
+        <parameter name="promoParam" value="Shop Private Sales - Members Only"></parameter>
+        <parameter name="urlParam" value="http://magento-demo.lexiconn.com/vip.html"></parameter>
+        <classes>
+            <class name="scripts.Test3"/>
+        </classes>
+    </test>
+   <test name="Test 4 - Add to Cart">
+        <parameter name="itemParam" value="TRIBECA SKINNY JEAN"></parameter>
+        <parameter name="priceParam" value="$185.00"></parameter>
+        <parameter name="colorParam" value="Black"></parameter>
+        <parameter name="sizeParam" value="31"></parameter>
+        <classes>
+            <class name="scripts.Test4"/>
+        </classes>
+    </test>
+    <test name="Test 5 - Validate Urls">
+        <parameter name="womenParam" value="Women"></parameter>
+        <parameter name="menParam" value="Men"></parameter>
+        <parameter name="accessoriesParam" value="Accessories"></parameter>
+        <parameter name="homeDecorParam" value="Home &#38; Decor"></parameter>
+        <parameter name="saleParam" value="Sale"></parameter>
+        <parameter name="vipParam" value="VIP"></parameter>
+
+        <parameter name="womenUrlParam" value="http://magento-demo.lexiconn.com/women.html"></parameter>
+        <parameter name="menUrlParam" value="http://magento-demo.lexiconn.com/men.html"></parameter>
+        <parameter name="accessoriesUrlParam" value="http://magento-demo.lexiconn.com/accessories.html"></parameter>
+        <parameter name="homeDecorUrlParam" value="http://magento-demo.lexiconn.com/home-decor.html"></parameter>
+        <parameter name="saleUrlParam" value="http://magento-demo.lexiconn.com/sale.html"></parameter>
+        <parameter name="vipUrlParam" value="http://magento-demo.lexiconn.com/vip.html"></parameter>
+        <classes>
+            <class name="scripts.Test5"/>
+        </classes>
+    </test>
+</suite>
+
+
